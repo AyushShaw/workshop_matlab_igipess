@@ -1,17 +1,23 @@
-# Scientific Computing and Biomechanics
 
-Using Matlab for Biomechanics Research 
+
+---
+# Computationl Biomechanics
+
+Using Matlab for Scintific Computing and Research in Biomechanics
 
 ---
 
-> Scientific computing is the science of solving problems with computers. The problems themselves usually arise from other disciplines such as mathematics, engineering, biology, physics, chemistry and other natural sciences. As a consequence, scientific computing is interdisciplinary by nature.
-> <cite>-Wikiversity</cite>
+# Why do we need to use Matlab?
 
 ---
 
-# Why Matlab
+
+ Scientific computing is the science of solving problems with computers. The problems themselves usually arise from other disciplines such as mathematics, engineering, biology, physics, chemistry and -Biomechanics- As a consequence, scientific computing and Matlab is inter-disciplinary by nature.
+ <cite>Me</cite>
 
 ---
+
+
 
 ### Scaler Arithmetic Operations
 
@@ -49,24 +55,6 @@ Here's are a few scalar operations that we can use:
 - Press the Enter key to execute the command.<br>
 
 </center>
-
----
-
-### Few Variables and Constants
-
-<center>
-
-|Commands|   | Description (What's that?)                                   |
-|:-----: |---| -------------------------------------------------            |
-| ans    |	 | Temporary variable containing the most recent 	answer.     |
-| eps    |	 | Specifies the accuracy of floating point 	precision.      |
-| i,j    |	 | The imaginary unit i.e, square root of -1.                                     |
-| Inf    |	 | Infinity.                                                   |
-| NaN    |	 | Indicates an undefined numerical result.                    |
-| pi     |	 | The number p.                                               |
-
-</center>
-
 
 ---
 
@@ -111,32 +99,6 @@ ans =
 
 ---
 
-#### More Examples 
-
-```Matlab
-
->> 3*4^2 + 5
-ans =
-     53
->>(3*4)^2 + 5
-ans = 
-     149
->>27^(1/3) + 32^(0.2)
-ans =
-     5
->>27^(1/3) + 32^0.2
-ans =
-     5
->>27^1/3 + 32^0.2
-ans =
-     11
-
-
-```
-
-
----
-
 #### Managing the work session
 
 Matlab provices us with basic commands to manage work sessions. <br>
@@ -150,8 +112,7 @@ Here are a few of them.
 |:----:|:------------------------------:|
 |clc|	Clears the Command window.|
 |clear|	Removes all variables from memory.|
-|clear v1 v2| 	Removes the variables v1 and v2 from 	memory.|
-|exist(‘var’)|	Determines if a file or variable exists <br>having the name ‘var’.|
+|clear v1 v2| 	Removes the variables v1 and v2 from memory.|
 |quit|	Stops MATLAB.|
 
 </center>
@@ -159,24 +120,7 @@ Here are a few of them.
 </center>
 
 
----
 
-#### A few More Commands
-
-
-
-<center>
-
-|Commands| What it does |
-|:----:|:------------------------------:|
-|who|		Lists the variables currently in memory.|
-|:|		Generates an array having regularly <br>spaced elements.|
-|,|		Separates elements of an array.|
-|;	|	Denotes a new row in an array.|
-
-</center>
-
----
 
 #### Vector variables (Arrays)
 
